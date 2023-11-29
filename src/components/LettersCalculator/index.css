@@ -1,0 +1,69 @@
+.app-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  background-size: cover;
+  min-height: 100vh;
+width: auto;
+
+}
+.letter-container{
+    display: flex;
+flex-direction: row;
+justify-content: flex-start;
+align-items: center;
+
+}
+.calculator-container{
+display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+ 
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: bold;
+}
+.input-phrase-container {
+  display: flex;
+  flex-direction: column;
+padding-left: 65px;}
+.label {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: bold;
+}
+.letters-input {
+  color: #ffffff;
+  background-color: transparent;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid #e4e7eb;
+  border-radius: 4px;
+  margin-top: 8px;
+  padding-top: 8px;
+  padding-right: 12px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  outline: none;
+}
+.letters-container {
+  align-self: center;
+  background-color: #ffffff;
+  border-radius: 12px;
+  margin-top: 32px;
+justify-content: flex-start;
+padding-left: 15px;
+padding-right: 15px;
+}
+.letters-count{
+font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+color:#219a6f;}
+.letters-calculator-image {
+  width: 70%;
+}
